@@ -24,20 +24,20 @@
 <br>
 ***
 ##### Create .flaskenv
-``.env
+```.env
 FLASK_APP=app
 FLASK_ENV=development
 FLASK_DEBUG=True
-``
+```
 <br>
 
 ##### Input in Python Console:
-``python
+```python
 from myapp.extensions import db
 from myapp.models.models import *
 from myapp import create_app
 create_app()
-``
+```
 <br>
 
 ***
