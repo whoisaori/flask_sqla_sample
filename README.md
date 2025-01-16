@@ -3,7 +3,7 @@
 ***
 
 ### Easy Start
-##### <sup>Just clone the repository:</sup>
+##### Just clone the repository:
 `git clone https://github.com/whoisaori/flask_sqla_sample.git`
 ***
 
@@ -21,6 +21,24 @@
 
 ##### Install packages:<br>
 `pip install -r requirements.txt`
+<br>
+***
+##### Create .flaskenv
+``
+FLASK_APP=app
+FLASK_ENV=development
+FLASK_DEBUG=True
+``
+<br>
+
+##### Input in Python Console:
+``
+from myapp.extensions import db
+from myapp.models.models import *
+from myapp import create_app
+create_app()
+``
+<br>
 
 ***
 ### And start coding!
